@@ -37,7 +37,12 @@ def get_asin_input():
     }
     return data
 
-def login():
+def login(page, username, password):
+    '''
+    page.get_by_label("Username or email address").fill("username")
+    page.get_by_label("Password").fill("password")
+    page.get_by_role("button", name="Sign in").click()'''
+    input("please login, press enter when ready")
     return False
 
 def scrape_asin(asin):
@@ -46,7 +51,8 @@ def scrape_asin(asin):
         browser = p.chromium.launch(headless=False)
         context = browser.new_context()
         page = context.new_page()
-
+        #todo login
+        login(page, "yonahs", "okeanos613")
         #for product in asins:
             #TODO
         '''driver.get('https://keepa.com/iframe_addon.html#1-0-'+ each['asin'])            
