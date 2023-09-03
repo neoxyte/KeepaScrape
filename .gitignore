@@ -166,3 +166,4 @@ Scripts/pip3.exe
 Scripts/playwright.exe
 Scripts/python.exe
 Scripts/pythonw.exe
+Scripts/activate
