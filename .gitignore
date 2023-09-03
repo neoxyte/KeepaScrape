@@ -155,3 +155,14 @@ Scripts/activate
 *.bat
 *.ps1
 *.exe
+Scripts/activate
+Scripts/activate
+Scripts/activate.bat
+Scripts/Activate.ps1
+Scripts/f2py.exe
+Scripts/pip.exe
+Scripts/pip3.11.exe
+Scripts/pip3.exe
+Scripts/playwright.exe
+Scripts/python.exe
+Scripts/pythonw.exe
